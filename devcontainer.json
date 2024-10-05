@@ -1,0 +1,46 @@
+{
+    "construir": {
+        "dockerfile": "Arquivo Docker"
+    },
+    "extensões": [
+		"bmewburn.vscode-intelephense-client",
+		"coenraads.bracket-pair-colorizer",
+		"neilbrayfield.php-docblocker",
+		"editorconfig.editorconfig",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"ms-vsliveshare.vsliveshare"
+	],
+    "configurações": {
+        "explorer.compactFolders": falso,
+        "arquivos.associações": {
+            "*.inc": "php",
+            "*.install": "php",
+            "*.módulo": "php",
+            "*.tema": "php",
+            "*.html": "galho"
+        },
+        "emmet.includeLanguages": {
+            "galho": "html"
+        },
+        "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": verdadeiro,
+        "intelephense.format.braces": "k&r",
+        "intelephense.files.exclude": [
+            "**/.git/**",
+            "**/.svn/**",
+            "**/.hg/**",
+            "**/CVS/**",
+            "**/.DS_Store/**",
+            "**/módulos_de_nó/**",
+            "**/bower_components/**",
+            "**/vendor/**/{Testes,testes}/**",
+            "**/.história/**",
+            "**/vendedor/**/vendedor/**",
+            "**/*.api.php"
+        ],
+        "php.suggest.basic": falso,
+        "php.validate.enable": falso,
+        "php-docblocker.returnGap": verdadeiro,
+        "php-docblocker.useShortNames": verdadeiro
+    }
+}
